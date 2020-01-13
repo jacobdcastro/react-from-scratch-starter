@@ -1,0 +1,18 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #46237a;
+  color: #fcfcfc;
+}
+
+#layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  width: 100vw;
+}
+
+a {
+  color: #fcfcfc;
+}
