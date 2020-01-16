@@ -21,7 +21,6 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', 'json'],
   },
-  externals: ['react-helmet'],
   devServer: {
     contentBase: path.join(__dirname, 'public/'),
     port: 2222,
@@ -33,5 +32,5 @@ module.exports = {
     publicPath: '/build/',
     filename: 'bundle.js',
   },
-  plugins: [new webpack.HotModuleReplacementPlugin(), new HtmlWebpackPlugin()],
+  plugins: [new webpack.HotModuleReplacementPlugin()],
 };
