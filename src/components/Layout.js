@@ -4,7 +4,7 @@ import SEO from './SEO';
 const Layout = ({ children }) => {
   return (
     <div id="layout">
-      <SEO title="React-from-scatch Starter" />
+      <SEO title="React-from-scatch Starter!!!!!" />
 
       <main>{children}</main>
     </div>
