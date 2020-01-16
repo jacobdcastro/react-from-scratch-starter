@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\" \"!node_modules/**\" \"!dist/**\" \"!public/**\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
