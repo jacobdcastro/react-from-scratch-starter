@@ -1,10 +1,10 @@
 {
   "name": "react-from-scratch-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A skeleton for creating a React app from scratch.",
   "main": "./public/index.html",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\" \"!node_modules/**\" \"!dist/**\" \"!public/**\"",
     "test": "echo \"Error: no test specified\" && exit 1"
